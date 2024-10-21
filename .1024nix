@@ -1,0 +1,18 @@
+{ pkgs ? import <nixpkgs> {} }:
+pkgs.mkShell {
+    shellHook = ''
+        alias ll="ls -l"
+        export PS1="\[\e[0m\]\w\[\e[0m\]#\[\e[0m\] "
+        export LANG=en_US.UTF-8
+        export CLASSPATH=$CLASSPATH:$HOME/.m2/lib
+    '';
+    packages = [
+        # env
+        pkgs.jdk
+        pkgs.maven
+        pkgs.gradle
+        pkgs.glibcLocales
+        # lsp
+        pkgs.jdt-language-server
+    ];
+}
