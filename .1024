@@ -1,2 +1,5 @@
 components: ["filetree", "shell", "console"]
+
+=======
 run_command: "java Main.java"
+
