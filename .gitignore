@@ -1,0 +1,23 @@
+# IDE specific
+.1024*
+!.1024
+.breakpoints
+
+# Go specific files
+*.exe
+*.exe~
+*.dll
+*.so 
+*.dylib
+*.test
+*.out
+
+# IDE directories
+.idea/
+.vscode/
+
+# Debug files
+debug/
+
+# Dependency directories
+vendor/
