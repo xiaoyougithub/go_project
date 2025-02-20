@@ -1,0 +1,47 @@
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific configuration
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# Binary files
+*.[568vq]
+[568vq].out
+
+# Test binary, built with `go test -c`
+*.test
+
+# Build output directories
+_obj
+_test
+
+# IDE & build-generated files
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_testmain.go
+
+# Runtime generated files
+/pkg/
+
+# Coverage testing outputs
+*.coverprofile
+cover.out
+
+# Go workspace file
+go.work
+
+# OS specific files
+.DS_Store
+Thumbs.db
