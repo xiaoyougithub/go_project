@@ -31,6 +31,12 @@ _cgo_defun.c
 _cgo_gotypes.go
 _cgo_export.*
 _testmain.go
+.idea/
+.vscode/
+
+# Binary and temporary directories
+/bin/
+/tmp/
 
 # Runtime generated files
 /pkg/
@@ -41,6 +47,11 @@ cover.out
 
 # Go workspace file
 go.work
+
+# Project-specific files to exclude
+navicat.pdf
+test*.txt
+test@*
 
 # OS specific files
 .DS_Store
